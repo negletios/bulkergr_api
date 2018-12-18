@@ -23,6 +23,32 @@ A Python Client for v1.0 of Bulker.gr SMS HTTP API
 * Free software: MIT license
 * Documentation: https://bulkergr-api.readthedocs.io.
 
+Installation
+------------
+
+``pip install bulkergr-api``
+
+Examples
+--------
+
+Submit a simple SMS through bulker.gr API SMS HTTP Client.
+
+.. code-block:: python
+
+    from bulkergr_api import Bulkergr
+
+    AUTH_KEY = 'XXXX'  # your auth key here.
+
+    bulker = Bulkergr(auth_key=AUTH_KEY)
+    params = {
+        'from': 'XXXX',  # from sender parameter depending on your bulker.gr account
+        'to': 'XXXXX',  # mobile number (MSISDN), starting with country code
+        'text': 'some random text here',
+    }
+
+    r = bulker.submit_sms(params)
+    print(r.results)
+
 Features
 --------
 
@@ -39,6 +65,12 @@ TODO
 * Complete tests based on API
 * Write the docs
 * Enable cli functionality
+
+Compatibility
+-------------
+
+python2.7
+python3.4+
 
 Credits
 -------
