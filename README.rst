@@ -1,13 +1,10 @@
 ===========================
-Bulker.gr Python API Client
+A Python API Client for https://www.bulker.gr
 ===========================
 
 
 .. image:: https://img.shields.io/pypi/v/bulkergr_api.svg
         :target: https://pypi.python.org/pypi/bulkergr_api
-
-.. image:: https://img.shields.io/travis/negletios/bulkergr_api.svg
-        :target: https://travis-ci.org/negletios/bulkergr_api
 
 .. image:: https://readthedocs.org/projects/bulkergr-api/badge/?version=latest
         :target: https://bulkergr-api.readthedocs.io/en/latest/?badge=latest
@@ -26,16 +23,26 @@ A Python Client for v1.0 of Bulker.gr SMS HTTP API
 * Free software: MIT license
 * Documentation: https://bulkergr-api.readthedocs.io.
 
-
 Features
 --------
 
-* TODO
+* Submit SMS to the API
+* Converting CSV text response to dict
+
+TODO
+--------
+
+* Integrate delivery receipts
+* Integrate balance queries
+* Enhance library's features of submitting
+* Enhance library's validity checks
+* Complete tests based on API
+* Write the docs
+* Enable cli functionality
 
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created with :heart: by negletios_.
 
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _negletios: https://github.com/negletios/

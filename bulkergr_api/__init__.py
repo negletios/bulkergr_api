@@ -5,3 +5,6 @@
 __author__ = """Yiannis Inglessis """
 __email__ = 'negtheone@gmail.com'
 __version__ = '0.1.3'
+
+from .bulkergr_api import Bulkergr
+from .exceptions import AuthKeyMissingError
