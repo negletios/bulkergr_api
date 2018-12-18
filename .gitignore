@@ -103,3 +103,6 @@ ENV/
 
 # PyCharm
 .idea/
+
+# VCRpy cassettes
+tests/vcr_cassettes/*

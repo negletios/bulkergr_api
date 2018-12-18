@@ -11,11 +11,11 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', ]
+requirements = ['requests>=2.5.0', ]
 
-setup_requirements = ['pytest-runner', ]
+setup_requirements = ['pytest-runner', 'vcrpy',]
 
-test_requirements = ['pytest', ]
+test_requirements = ['pytest', 'vcrpy', ]
 
 setup(
     author="Yiannis Inglessis ",
