@@ -104,5 +104,8 @@ ENV/
 # PyCharm
 .idea/
 
+# vscode
+.vscode/
+
 # VCRpy cassettes
 tests/vcr_cassettes/*
